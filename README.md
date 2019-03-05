@@ -18,6 +18,7 @@ In the document it is called **APP-Pin**.
 * Every request has to have the header param `Accept: application/json`.
 * Every path shown below has a base url of `http://amtron-ip:25000/MHCP/1.0`
 * Useful information can be found at the bottom of every page under **Notes**.
+* Amtron Wallboxes dont like to be stressed with requests. Dont overdo it.
 
 ### Documentation
 

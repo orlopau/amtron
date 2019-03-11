@@ -21,7 +21,7 @@ Retrieves information how the wallbox charges the vehicle.
   
   * **Code:** 200 <br />
     **Datatypes:**
-      * `EnumChargingState: [Idle, Charging, Paused]`
+      * `EnumChargingState: [Idle, Charging, Paused, StandbyConnect]`
     
     **Content:** 
     

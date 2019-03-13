@@ -22,7 +22,7 @@ Retrieves information about the wallbox.
   * **Code:** 200 <br />
     **Datatypes:**
       * `EnumDevMode: [Remote, HomeManager, Time]` <br/>
-      * `EnumChargingState: [Idle, Charging, Paused, StandbyConnect]`
+      * `EnumChargingState: [Idle, Charging, Paused, StandbyConnect, StandbyAuthorize]`
     
     **Content:** 
     

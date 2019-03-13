@@ -20,7 +20,7 @@ Control charging of the wallbox.
 * **Data Params** <br />
 
   **Datatypes:**
-    * `EnumChargeControl: [Continue, Pause, Start]`<br />
+    * `EnumChargeControl: [Continue, Pause, Start, Terminate]`<br />
 
   All parameters except "Permanent" can be set to null if no change is intended.
     

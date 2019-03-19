@@ -30,7 +30,7 @@ Control charging of the wallbox.
   	"RemoteCurr": [number],           /* current per phase in A while charging with App control */
   	"AutoChg": [boolean],             /* true if charging should start automatically */
   	"ChgState": [EnumChargeControl],  /* update charge state with value here */
-  	"Uid": [string]                   /* ? */
+  	"Uid": [string]                   /* should always be 00000000 */
   }
   ```
 
@@ -61,4 +61,6 @@ Control charging of the wallbox.
 * **Notes:**
 
     On (some) chargers that use 3 phases, the remote current can not be smaller than 6A.
+    
+    It seems like the UID has to be 00000000 for "Start" to work.
 

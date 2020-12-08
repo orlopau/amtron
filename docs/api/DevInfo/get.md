@@ -33,29 +33,30 @@ Retrieves information about the wallbox.
       "Summer": [boolean],        /* Is summer time? */
       "Tz": [number],             /* timezone offset in minutes */
       "ItemNo": [string],         /* item number */
-      "Sn": [number],             /* Serial Number */
+      "Sn": [number],             /* Serial number */
       "Hcc3": [string],           /* Info about the HCC3 (main controller) */
       "Hmi": [string],            /* Info about hardware software? */
       "Rfid": [string],           /* Info about RFID? */
       "Wifi": [string],           /* WiFi module version? */
       "FixedVehCosts": [number],  /* Fixed vehicle costs as specified in the app */
       "OldVehCosts": [number],    /* OldVehicle costs? */
-      "Color": [number],          /* ? */
-      "DevMode": [EnumDevMode],   /* Curent charging mode */
+      "Color": [number],          /* Color Schema LED, 0 = IDLE - blue; CHARGE - green; WAIT - white; ERROR - red,
+                                                       1 = IDLE - green; CHARGE - blue; WAIT - white; ERROR - red */
+      "DevMode": [EnumDevMode],   /* Current charging mode */
       "ChgState": [EnumChargingState], /* Current charging state */
       "WifiOn": [boolean],        /* true if WiFi is on */
-      "AutoChg": [boolean],       /* true if auto-start charging is enabled*/
+      "AutoChg": [boolean],       /* true if auto-start charging is enabled */
       "ChgContinue": [boolean],   /* true if charging should continue after power outage */
       "Err": [number],            /* current error code, 0 if there is none */
-      "Battery": [number],        /* EV battery capacity for EnergyManager in Wh*/
+      "Battery": [number],        /* EV battery capacity for EnergyManager in Wh */
       "Phases": [number],         /* number of phases connected */
       "Cable": [boolean],         /* true if cable is connected/installed? */
       "Auth": [boolean],          /* true if auth by rfid is enabled? */
       "DsoEnabled": [boolean],    /* ? */
       "EmEnabled": [boolean],     /* true if EnergyManager mode is enabled */
-      "MaxCurr": [number],        /* currently set max. charging current per phase in A*/
-      "MaxPwr": [number],         /* currently set max. charging power in W*/
-      "MaxCurrWb": [number]       /* upper limit for charging current per phase in A*/
+      "MaxCurr": [number],        /* currently set max. charging current per phase in A */
+      "MaxPwr": [number],         /* currently set max. charging power in W */
+      "MaxCurrWb": [number]       /* upper limit for charging current per phase in A */
     }
     ```
  
